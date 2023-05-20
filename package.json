@@ -1,6 +1,6 @@
 {
   "name": "gtfs2mongo",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Pushes provided GTFS text/csv files into distinct collections of a specified MongoDB database.",
   "main": "gtfs2mongo.js",
   "scripts": {
@@ -10,19 +10,6 @@
     "type": "git",
     "url": "https://github.com/theelee13/gtfs2mongo"
   },
-  "keywords": [
-    "gtfs",
-    "transit",
-    "csv",
-    "MongoDB",
-    "bus",
-    "busses",
-    "train",
-    "trains",
-    "transitInfo",
-    "policy",
-    "MARTA"
-  ],
   "author": "theelee13",
   "license": "ISC",
   "bugs": {
@@ -31,6 +18,6 @@
   "homepage": "https://github.com/theelee13/gtfs2mongo",
   "dependencies": {
     "csv-parse": "0.0.4",
-    "mongodb": "^1.4.6"
+    "mongodb": "^5.5.0"
   }
 }
